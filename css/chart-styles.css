@@ -1,0 +1,159 @@
+#chart {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+
+/* 
+#chart .layer-1 path {
+  opacity: 0.3;
+  stroke-width: 0.5px;
+  stroke: #000000;
+} */
+
+/* Outer circle, tick-circles and spokes */
+/* #chart circle.outer {
+  stroke: #aaa;
+  stroke-dasharray: 4, 4;
+}
+
+#chart .tick-circles circle {
+  stroke: #ddd;
+  stroke-dasharray: 2, 2;
+}
+
+#chart .spokes line {
+  stroke: #666;
+  stroke-width: 0.2;
+} */
+
+/* Axis */
+/* #chart .axis text {
+  font-size: 11px;
+}
+
+#chart .axis path {
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+
+#chart .axis line {
+  stroke: #999;
+  shape-rendering: crispEdges;
+} */
+
+/* Labels */
+/* #chart .labels text {
+  fill: #333;
+  font-size: 10px;
+  font-weight: 500;
+} */
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  max-width: 440px;
+    margin: 0 auto !important;
+    padding:3.5rem 0rem 0rem 3rem;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .svg-content-responsive {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .svg-container{
+    padding: 0;
+    max-width: 320px;
+  }
+  .svg-container svg{
+    width:300px !important;
+    height:300px !important;
+  }
+  #chart{
+    padding: 0;
+  }
+}
+
+/* layers */
+/* #chart .layer-1 path:nth-child(1) {
+  fill: rgba(237, 106, 86, 0.875);
+}
+
+#chart .layer-1 path:nth-child(2) {
+  fill: rgba(240, 155, 54, 0.875);
+}
+
+#chart .layer-1 path:nth-child(3) {
+  fill: rgba(255, 199, 78, 0.875);
+}
+
+#chart .layer-1 path:nth-child(4) {
+  fill: rgba(160, 180, 112, 0.875);
+}
+
+#chart .layer-1 path:nth-child(5) {
+  fill: rgba(110, 158, 117, 0.875);
+}
+
+#chart .layer-1 path:nth-child(6) {
+  fill: rgba(110, 158, 117, 0.875);
+}
+
+#chart .layer-1 path:nth-child(7) {
+  fill: rgba(134, 154, 207, 0.875);
+}
+
+#chart .layer-1 path:nth-child(8) {
+  fill: rgba(137, 88, 129, 0.875);
+} */
+
+/* layers */
+/* 
+#chart .layer-0 path:nth-child(1) {
+  fill: rgba(237, 106, 86, 0.65);
+}
+
+
+#chart .layer-0 path:nth-child(2) {
+  fill: rgba(240, 155, 54, 0.65);
+}
+
+#chart .layer-0 path:nth-child(3) {
+  fill: rgba(255, 199, 78, 0.65);
+}
+
+#chart .layer-0 path:nth-child(4) {
+  fill: rgba(160, 180, 112, 0.65);
+}
+
+#chart .layer-0 path:nth-child(5) {
+  fill: rgba(110, 158, 117, 0.65);
+}
+
+#chart .layer-0 path:nth-child(6) {
+  fill: rgba(115, 204, 228, 0.65);
+}
+
+#chart .layer-0 path:nth-child(7) {
+  fill: rgba(134, 154, 207, 0.65);
+}
+
+#chart .layer-0 path:nth-child(8) {
+  fill: rgba(137, 88, 129, 0.65);
+} */
