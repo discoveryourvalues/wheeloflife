@@ -25,44 +25,44 @@
    
     <div class="resultsDescription">
             <p>Ready for the next step?</p>
-            <a href="#">Let's explore your personal values.</a>
+            <a href="https://free.assessment.discoveryourvalues.com/">Let's explore your personal values.</a>
     </div>
 
 
     <!-- Modal Start-->
-  <div class="modal fade" id="email_modal" role="dialog">
-    <div class="modal-dialog">
+  <!-- <div class="modal fade" id="email_modal" role="dialog"> -->
+    <!-- <div class="modal-dialog"> -->
 
       <!-- Modal content-->
-      <div class="modal-content" style="    max-width: 500px;margin: 0px auto;">
+      <!-- <div class="modal-content" style="    max-width: 500px;margin: 0px auto;"> -->
 
-        <div class="modal-body" style="    padding: 2rem 2rem 0.325rem;">
-        <label for="email" style="    font-size: 16px;margin: 0.25em 0px 1.7em;font-weight: 600;">Enter your email to see your results</label>
-        <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="Enter email"
-                style="margin: 0em 0 1em;"
-            >
-            <div style="font-size: small;text-align: center;">
-              <input style="    top: 1px;position: relative; "type="checkbox" required="true" id="confirmTerms">
-                <span>
-                  I accept the
-                  <a href="https://www.podia.com/terms" target="_blank"> Terms of Service</a> and
-                  <a href="https://www.podia.com/privacy" target="_blank"> Privacy Policy </a>
-                </span>
-            </div>
-            <small id="email_error" style="color: red !important;" class="form-text text-muted"></small>
+        <!-- <div class="modal-body" style="    padding: 2rem 2rem 0.325rem;"> -->
+        <!-- <label for="email" style="    font-size: 16px;margin: 0.25em 0px 1.7em;font-weight: 600;">Enter your email to see your results</label> -->
+        <!-- <div class="form-group"> -->
+            <!-- <input type="email" class="form-control" id="email" placeholder="Enter email" -->
+                <!-- style="margin: 0em 0 1em;" -->
+            <!-- > -->
+            <!-- <div style="font-size: small;text-align: center;"> -->
+              <!-- <input style="    top: 1px;position: relative; "type="checkbox" required="true" id="confirmTerms"> -->
+                <!-- <span> -->
+                  <!-- I accept the -->
+                  <!-- <a href="https://www.podia.com/terms" target="_blank"> Terms of Service</a> and -->
+                  <!-- <a href="https://www.podia.com/privacy" target="_blank"> Privacy Policy </a> -->
+                <!-- </span> -->
+            <!-- </div> -->
+            <!-- <small id="email_error" style="color: red !important;" class="form-text text-muted"></small> -->
 
-            <div style="margin-bottom: 20px;text-align: center;margin-top: 2rem;">
-            <button type="button" id="submit_email" class="btn btn-link px-2"
-            style="margin: 0px auto;border: 1px solid gray;color: grey;">
-                See Your Results
-            </button>
-        </div>
-        </div>
-      </div>
+            <!-- <div style="margin-bottom: 20px;text-align: center;margin-top: 2rem;"> -->
+            <!-- <button type="button" id="submit_email" class="btn btn-link px-2" -->
+            <!-- style="margin: 0px auto;border: 1px solid gray;color: grey;"> -->
+                <!-- See Your Results -->
+            <!-- </button> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
 
-    </div>
-  </div>
+    <!-- </div> -->
+  <!-- </div> -->
     <!-- Modal End -->
 
 
@@ -76,10 +76,10 @@
         console.log("1");
         window.location.replace("index.php");
     }
-    $(document).ready(function(){
-        $('#email_modal').modal({"backdrop": "static", "keyboard": false});
-        $('#email_modal').modal('show');
-    });
+    // $(document).ready(function(){
+    //     $('#email_modal').modal({"backdrop": "static", "keyboard": false});
+    //     $('#email_modal').modal('hide');
+    // });
 </script>
 
 <script type="text/javascript">
